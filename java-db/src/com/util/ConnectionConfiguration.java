@@ -11,7 +11,7 @@ public class ConnectionConfiguration {
 
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306", "root", "password");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "password");
         } catch (Exception e) {
             e.printStackTrace();
         }
