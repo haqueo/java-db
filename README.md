@@ -1,2 +1,2 @@
 # java-db
-A mySQL Java website
+A barebones JSP-mySQL website using the JDBC API
